@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Cinzel', serif;
+}
+
+body {
+  background-image: url("/img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+header {
+  position: fixed;
+  top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 1000;
+}
+
+main {
+  padding-top: 20rem;
+}
+
+.background-silksong {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  height: 50rem;
+  opacity: 60%;
+  position: absolute;
+  z-index: 1;
+  top: 8rem;
+  left: 35rem;
+  object-fit: cover;
+}
+
+.dividers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 20rem;
+  overflow: hidden;
+}
+
+h2 {
+  color: white;
+  opacity: 100%;
+  z-index: 5;
+  position: absolute;
+  top: 15rem;
+  font-weight: 500;
+  
+}
+
+.icon img {
+  width: 20rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  bottom: 10rem;
+}
+
+.btn-responder {
+  background: none;
+  border: none;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  background: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  bottom: 14rem;
+
+  img {
+    width: 25rem;
+  }
+}
+
+.btn-responder:hover {
+  box-shadow: 0 0 15px #ff3b3b, 0 0 30px #ff3b3b;
+  border-color: #ff3b3b;
+  color: #ff3b3b;
+}
+
+.rosaries {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    left: 6rem;
+    bottom: 4rem;
+    justify-content: space-around;
+    width: 32rem;
+
+    .content {
+        color: white;
+    }
+}
+
+.necklace {
+    position: relative;
+    display: inline-block;
+}
+
+.icon-necklace {
+
+}
+
+.rosaries-badge {
+    position: absolute;
+  top: -7px;
+  right: -5px;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 4px 8px;
+}
