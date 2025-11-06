@@ -21,10 +21,11 @@
       />
     </header>
 
-    <main>
-      <div class="background-silksong">
+    <div class="background-silksong">
         <img src="./img/SilksongHornet.png" alt="" />
       </div>
+
+    <main> 
 
       <div class="dividers">
         <img src="./img/dividers1.png" alt="" />
@@ -32,12 +33,17 @@
 
       <div class="container">
         <h2>FALE O NOME DA COR EM INGLES</h2>
-        <div class="icon"><img src="./img/icon.png" alt="" /></div>
-        <button class="btn-responder"><img src="./img/button.png" alt="" /></button>
+          <div id="vespa-visivel">
+            <div id="vespa-head" role="button" tabindex="0"></div>
+
+            <div id="vespa-color" aria-hidden="true"></div>
+          </div>
+        <button class="btn-responder"><img src="./img/button.png" alt="" />
+        </button>
       </div>
 
       <div class="rosaries">
-        <div class="necklace">
+        <div class="necklace" id="pontuacao">
             <img class="icon-necklace" src="./img/Rosary_Necklace.png" alt="">
             <span id="rosaries-count" class="rosaries-badge">4</span>
 
@@ -49,6 +55,6 @@
       </div>
     </main>
 
-    <script></script>
+    <script src="./script/functions.js"></script>
   </body>
 </html>
